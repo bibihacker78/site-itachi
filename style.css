@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Matura';
+}
+@font-face {
+    font-family: Matura MT Script Capitals;
+    src: url(C:\Users\hp\projet_itachi\Fonts\matura-mt-script-capitals\MATURASC.TTF);
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(36,35,35);
+    
+}
+.navbar {
+    width: 90%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul {
+    padding-right: 500px;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #605343;
+}
+.navbar ul li a:hover{
+    color: rgb(138, 138, 138);
+}
+h1{
+    font-family: 'Matura MT Script Capitals';
+    color: #605343;
+    font-size: 3em;
+}
+strong{
+    font-family: 'Matura MT Script Capitals';
+    color: #b6a293;
+}
+p {
+    color: #b6a293;
+}
+input {
+    width: 100px;
+    background: transparent;
+    text-align: center;
+    padding: 10px 0;
+    border: 2px solid #b6a293;
+    border-radius: 3px; 
+    border-bottom: 3px solid #b6a293; 
+    color: #b6a293;
+}
+.contain {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+   
+}
+.contain .text, h1 {
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 40px; 
+}
+.contain .contain_img{
+    margin-right: 80px ;
+    margin-top: -50px;
+    
+}
+.read {
+    margin-left: 100px;
+    margin-top: 320px;
+}
